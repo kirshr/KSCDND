@@ -1,0 +1,56 @@
+html {
+  background-color: white;
+}
+.nav  {
+  display:flex;
+  align-items: flex-start;
+
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  height: auto;
+  padding-right: 100px;
+
+}
+a {
+  font-size: 20px;
+  padding-left: 30px;
+
+}
+nav {
+  padding-left: 700px;
+  display: inline-flex;
+
+}
+
+.dndlogo {
+  height: 200px
+  width: 400px;
+}
+
+/* Header is done */
+
+.container {
+  margin: 40px 150px;
+}
+.intro{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.worldbg {
+  display: inline-flex;
+  height: 400px;
+  border: 3px solid black;
+}
+.content {
+}
+.pic1 {
+}
+.updates{
+    border: 3px solid black;
+}
