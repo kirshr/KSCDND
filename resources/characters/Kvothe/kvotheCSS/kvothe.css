@@ -1,0 +1,42 @@
+.container {
+  border: 1px solid black;
+  margin: 0px 100px;
+}
+.title {
+  border: 1px solid black;
+  text-align: center;
+}
+.main-content {
+  border: 1px solid black;
+  margin: 10px 20px;
+  display: flex;
+}
+.class {
+  border: 1px solid black;
+  margin: 10px 20px;
+  display: flex;
+}
+.bg-story {
+  border: 1px solid black;
+  margin: 10px 20px;
+}
+.class-info {
+  border: 1px solid black;
+  margin: 10px 20px;
+}
+.class-picture{
+  border: 1px solid black;
+  margin: 10px 20px;
+}
+.snapshot{
+  border: 1px solid black;
+  margin: 10px 20px;
+}
+.features {
+  border: 1px solid black;
+  margin: 10px 20px;
+}
+.equipment {
+  border: 1px solid black;
+  margin: 10px 20px;
+}
