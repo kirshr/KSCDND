@@ -1,31 +1,21 @@
-/* LOGO
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-
 
 .Title {
-  border: 1px solid black;
   text-align: center;
-  background-color: #becfea ;
-  color: white;
+  color: black;
+}
+html{
+    background-image: url("../../css/images/dndbg.jpg");
+    background-size: cover;
+}
+.container {
+
 }
 
 .content{
-    border: 1px solid purple;
-    margin: 40px 100px;
+    margin: 0px 100px;
     justify-content: space-between;
     display: flex;
+    padding: 0px 50px;
 }
 
 span {
@@ -35,49 +25,52 @@ span {
 }
 
 .kvothe {
-  border: 1px solid black;
+  border: 3px solid black;
   height: 300px;
   width: 600px;
   background-image: url("../images/kvothe.jpg");
-
-
+  margin: 20px 20px;
 }
 .greggor {
-  border: 1px solid black;
+  border: 3px solid black;
   height: 300px;
   width: 600px;
+  background-color: white;
   background-image: url("../images/greggor.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 200px 300px;
+  margin: 20px 20px;
 }
-
-
 .seldon {
-  border: 1px solid black;
+  border: 3px solid black;
   height: 300px;
   width: 600px;
   background-image: url("../images/seldon.jpg");
-
+  margin: 20px 20px;
 }
-
 .lightning {
-  border: 1px solid black;
+  border: 3px solid black;
   height: 300px;
   width: 600px;
   background-image: url("../images/lightning.jpg");
+  margin: 20px 20px;
 }
 .firereed {
-  border: 1px solid black;
+  border: 3px solid black;
   height: 300px;
   width: 600px;
   background-image: url("../images/firereed.jpg");
+  margin: 20px 20px;
 }
 .leopold {
-  border: 1px solid black;
+  border: 3px solid black;
   height: 300px;
   width: 600px;
+  background-color: white;
   background-image: url("../images/leopold.jpg");
   background-repeat: no-repeat;
   background-position: right;
+  background-size: contain;
+  margin: 20px 20px;
 }
