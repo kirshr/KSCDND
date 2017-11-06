@@ -1,0 +1,83 @@
+/* LOGO
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+.Title {
+  border: 1px solid black;
+  text-align: center;
+  background-color: #becfea ;
+  color: white;
+}
+
+.content{
+    border: 1px solid purple;
+    margin: 40px 100px;
+    justify-content: space-between;
+    display: flex;
+}
+
+span {
+  font-family: helvetica;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.kvothe {
+  border: 1px solid black;
+  height: 300px;
+  width: 600px;
+  background-image: url("../images/kvothe.jpg");
+
+
+}
+.greggor {
+  border: 1px solid black;
+  height: 300px;
+  width: 600px;
+  background-image: url("../images/greggor.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 200px 300px;
+}
+
+}
+.seldon {
+  border: 1px solid black;
+  height: 300px;
+  width: 600px;
+  background-image: url("../images/seldon.jpg");
+
+}
+
+.lightning {
+  border: 1px solid black;
+  height: 300px;
+  width: 600px;
+  background-image: url("../images/lightning.jpg");
+}
+.firereed {
+  border: 1px solid black;
+  height: 300px;
+  width: 600px;
+  background-image: url("../images/firereed.jpg");
+}
+.leopold {
+  border: 1px solid black;
+  height: 300px;
+  width: 600px;
+  background-image: url("../images/leopold.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
