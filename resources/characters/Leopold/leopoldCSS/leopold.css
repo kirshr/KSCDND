@@ -1,11 +1,15 @@
 html {
   background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container {
   margin: 0px 100px;
 }
 .title {
   text-align: center;
+  color: white;
+
 }
 .main-content {
   margin: 10px 10px;
