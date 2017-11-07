@@ -1,49 +1,43 @@
+
 .container {
-  border: 1px solid black;
   margin: 0px 100px;
 }
 .title {
-  border: 1px solid black;
   text-align: center;
 }
 .main-content {
-  border: 4px solid purple;
   margin: 10px 10px;
   display: flex;
+  border: 4px solid black;
 }
 .class {
-  border: 4px solid pink;
   margin: 10px 10px;
   display: flex;
   width: 800px;
+  border-right: 4px solid black;
 }
 .bg-story {
-  border: 1px solid black;
   margin: 10px 20px;
 }
 .class-info {
-  border: 1px solid black;
   margin: 10px 20px;
 }
 .class-picture{
-  border: 1px solid black;
   margin: 10px 20px;
 }
 .snapshot{
-  border: 4px solid green;
   margin: 10px 20px;
   width: 500px;
 }
 .features {
-  border: 1px solid black;
   margin: 10px 20px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
 }
 .columnB {
-  border: 4px solid red;
   display: flex;
 }
 .equipment {
-  border: 1px solid black;
   margin: 10px 10px;
 }
 
@@ -88,4 +82,8 @@
 }
 .features h1 {
   text-align: center;
+}
+.features span {
+  color: red;
+  font-weight: bold;
 }
