@@ -85,7 +85,11 @@ nav {
   .pic1 {width: 50%;}
 }
 @media only screen and (max-width:480px) {
-  .dndlogo {height: 50px; width: 100px;}
+  .dndlogo {height: 100px; width: 150px;}
   nav {padding-left: 0px;}
-  a {font-size: 0.75rem;}
-  .pic1 {width: 50%;}
+  a {font-size: 0.95rem; color: white; font-weight: bold;}
+  .pic1 {display: none;}
+  .content {width: 100%; color: white; font-size: 1rem;}
+  html {background-image: url("./images/gw2art.jpg"); background-size: cover;}
+  .content2 { color: white; font-size: 1rem;}
+  .updates {color: white;}
