@@ -46,7 +46,8 @@ html {
 }
 
 .venomdagger {
-
+border: .1rem solid purple;
+margin-top: 15px;
 }
 .dropdown {
   position: relative;
