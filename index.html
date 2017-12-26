@@ -1,41 +1,117 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <title>Newt Hunters + Seldon...</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>DnD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <link rel="stylesheet" href="./resources/css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
-
-<header>
-  <div class="nav">
-    <img class="dndlogo"src="./resources/css/images/DnDlogo.png" width="400" height="200" alt="">
-    <nav>
-      <a href=".\resources\world\world.html">World map</a>
-      <a href=".\resources\characters\characters.html">Character</a>
-      <a href="#">Story</a>
-    </nav>
-  </div>
-</header>
-
-<div class="container">
-  <div class="intro">
-    <div class="worldbg">
-      <div class="content">
-        <h1>The world</h1>
-        <p>Enter a living, breathing fantasy world
-Guild Wars 2 defines the future of online roleplaying games with action-oriented
-combat, customized personal storylines, epic dynamic events, world-class PvP, and no subscription fees!</p>
+<!--Navigation bar -->
+    <nav class="navbar navbar-default navbar-expand-md">
+      <a href="#" class="navbar-brand">
+        <img src="./resources/css/images/Newwt.png" width="400"alt="Newt Logo">
+      </a>
+      <!-- Menu Button when collapsed -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
+      <!-- Links -->
+      <div class="collapse navbar-collapse justify-content-end " id="navbarToggler">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active"href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"href="./resources/story/story.html">Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"href="#">Characters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"href="#">World</a>
+          </li>
+        </ul>
       </div>
-    </div>
-    <div class="updates">
-      <h1>Updates</h1>
-      <div class="content2">
-        <p>Next DnD session will be on Sunday, November 12 AND Sunday November 19th </p>
-
+      </nav>
+<!-- Jumbrotron -->
+      <div class="jumbotron ">
+        <h1 class="display-3">Welcome to Daraveda!</h1>
+        <p class="lead">Welcome to the adventures of the Newt Hunters... and Seldon.. A ragtag team of nobles, murderers, possibly demons, baby dryders and more. Here you will be able to follow along with our group and enjoy the random things that we do.</p>
+        <hr class="my-4">
+        <p>Come for the beer, stay for the laughter.</p>
+        <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
       </div>
+<!--Carousel of monsters -->
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            News! Ulquatum tichondrius de la salva plust warkraft till nighthold over sargeras
+          </div>
+          <div class="col-sm-8">
+            <div class="container">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./resources/characters/images/Monster/shrieker.jpg" alt="First slide" width="500" height="600">
+                <div class="carousel-caption d-none d-md-block">
+                 <h3 style="background:black">Shrieker Encounter</h3>
+                 <p style="background:black">Someone burned a farm....</p>
+               </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./resources/characters/images/Monster/Spider_swarm.png" alt="Second slide"width="500" height="600">
+                <div class="carousel-caption d-none d-md-block">
+                 <h3 style="background:black">Spider Swarm.... </h3>
+                 <p style="background:black">They seem to chase us often...</p>
+               </div>
+             </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./resources/characters/images/Monster/Barghest.jpg" alt="Third slide"width="500" height="600">
+                <div class="carousel-caption d-none d-md-block">
+                 <h3 style="background:black">Barghest</h3>
+                 <p style="background:black">Kiery wanted to befriend him, Kvothe wanted his skull... Kvothe won...</p>
+               </div>
+             </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./resources/characters/images/Monster/dryder.jpg" alt="Third slide"width="500" height="600">
+                <div class="carousel-caption d-none d-md-block">
+                 <h3 style="background:black">Dryder</h3>
+                 <p style="background:black">He rose, he fought, he gave us magical loot.</p>
+               </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./resources/characters/images/Monster/newt.jpg_large" alt="Third slide"width="500" height="600">
+                <div class="carousel-caption d-none d-md-block">
+                 <h3 style="background:black">General Krustaka</h3>
+                 <p style="background:black">The Newt General, we kind of pissed him off...</p>
+               </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="control" aria-hidden="true"><i class="fas fa-arrow-left fa-2x" style="background:black"></i></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="control" aria-hidden="true"><i class="fas fa-arrow-right fa-2x"style="background:black"></i></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+          </div>
+        </div>
     </div>
-  </div>
-</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>
